@@ -1,0 +1,80 @@
+.info{
+    color: var(--title-color, #1E2046);
+    /* 32pt */
+    font-family: DM Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.part-1{
+    margin-bottom:50px;
+    margin-left: 100px;
+}
+
+
+.part-2{
+    display: flex;
+    justify-content:space-around
+}
+
+.img-con{
+    float: left;
+}
+.book-info{
+    float: right;
+}
+
+.img-1{
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.10);
+}
+
+.book-name{
+    color: #000;
+    padding-top:4px;
+    padding-left: 5px;
+
+/* 18 pt DM Sans Regular */
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.book-writer{
+    color: var(--filling-of-email, #7A7E92);
+    padding-left: 5px;
+/* 16pt */
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 134.2%; /* 21.472px */
+}
+.book-about{
+    color: #000;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 132.2%; /* 15.864px */
+padding-left: 5px;
+}
+
+.btn-btn{
+    margin-top:  0px !important;
+    width: 148px;
+}
+
+.hrt{
+    border-radius: 5px;
+background: var(--2nd-color, #EBF7FF);
+font-size: 20px;
+
+}
+.heart{
+    display: inline-block;
+}

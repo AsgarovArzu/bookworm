@@ -1,0 +1,117 @@
+.subscribe{
+    background: var(--title-color, #1E2046);
+    height: 175px;
+    flex-shrink: 0;
+    width: 1180px;
+}
+
+.footer{
+    background: var(--subtitle-color, #0A142F);
+    width: 1180px;
+    height: 335px;
+    flex-shrink: 0;
+}
+
+.sub-text{
+    width: 360px;
+    height: 35.73px;
+    flex-shrink: 0;
+    color: #FFF;
+    /* 12 pt */
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.2%; /* 16.104px */
+    opacity: 0.6;
+    clear: both;
+    padding-top: 74px;
+    padding-left: 151px;
+
+}
+
+.right{
+    float:right;
+    margin-right:170px;
+}
+
+.label-text{
+    color: var(--white, #FFF);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 134.2%; /* 18.788px */
+    width: 131px;
+    height: 14.143px;
+    flex-shrink: 0;
+    margin-right: 31px;
+}
+
+.input-email{
+    border-bottom-left-radius: 4.917px;
+    border-top-left-radius: 4.917px;
+    border: 1.229px solid #E7E8F2;
+    background: #FFF;
+    width: 203.222px;
+    height: 41px;
+    flex-shrink: 0;
+    outline: none;
+}
+
+.input-email::placeholder{
+    height: 20.011px;
+    flex-shrink: 0;
+    color: var(--filling-of-email, #7A7E92);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bt{
+
+    margin-bottom: 4px;
+    width: 40.972px;
+    height: 41px;
+    flex-shrink: 0;
+    fill: var(--accent-color-1, #0096FF);
+    border-bottom-right-radius: 4.917px !important;
+    border-top-right-radius: 4.917px !important;
+    border-bottom-left-radius: 0% !important ;
+    border-top-left-radius: 0% !important;
+}
+
+.logo-footer{
+    text-align: center;
+}
+.mg{
+    margin-top:64px
+}
+
+.head-text{
+    width: 55px;
+    height: 22.94px;
+    flex-shrink: 0;
+    color: var(--white, #FFF);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.944px;
+    cursor: pointer; /* 163.889% */
+}
+.alt-text{
+    cursor: pointer;
+    /* width: 6px; */
+    height: 22.94px;
+    height: 18px;
+    flex-shrink: 0;
+    color: var(--white, #FFF);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
