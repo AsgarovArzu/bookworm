@@ -115,3 +115,51 @@
     font-weight: 400;
     line-height: normal;
 }
+
+.mobApp{
+    width: 72.977px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.2%; /* 18.788px */
+}
+.apps{
+    margin-left:102px
+}
+
+.google, .apple{
+    cursor: pointer;
+}
+.google{
+    margin-left:15px
+}
+
+.copy{
+    color: var(--White, #FFF);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 134.2%; /* 18.788px */
+    margin-top: 37px;
+    margin-left: 40px;
+}
+
+.socialM{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 32px;
+    margin-left: 200px;
+    width: 109.965px;
+height: 27px;
+flex-shrink: 0;
+color: #FFF;
+font-size: 18px;
+}
+
+.socialM> div{
+    cursor: pointer;
+}

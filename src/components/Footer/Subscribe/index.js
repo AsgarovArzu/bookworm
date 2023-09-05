@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import "./style.css"
 import Arrow from './arrows.png'
 import Bookworm from './Bookworm.png'
+import SvgApple from "./AppleICon/apple.tsx"
+import  GooglePlay   from './google.png';
+import { SlSocialLinkedin } from 'react-icons/sl';
+import { RiFacebookFill } from 'react-icons/ri';
+import { BsGithub } from 'react-icons/bs';
+
 class Subscribe extends Component {
     state = {  } 
     render() { 
@@ -60,13 +66,22 @@ class Subscribe extends Component {
                     </div>
                     <div className="row">
                         <div className="col-4">
+                            <div className="apps">
+                                <p className="mobApp">Mobile app</p>
+                                <span className="apple"> <SvgApple/> </span>
+                                <span className="google"> <img src={GooglePlay} alt="" /> </span>
+                            </div>
 
                         </div>
                         <div className="col-4">
-
+                                <div className="copy"> &copy; 2023 by BookWorm. All rights reserved</div>
                         </div>
                         <div className="col-4">
-                            
+                            <div className='socialM '>
+                                <div> <SlSocialLinkedin/> </div>
+                                <div> <RiFacebookFill/> </div>
+                                <div> <BsGithub/> </div>
+                            </div>
                         </div>
                     </div>
                 </div>
