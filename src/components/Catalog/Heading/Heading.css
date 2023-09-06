@@ -1,0 +1,39 @@
+.addressBar{
+    color: var(--filling-of-email, #7A7E92);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.2%; /* 18.788px */
+    margin-top: 60px;
+    margin-left: 75px;
+}
+
+.ctrl-label{
+    color: var(--filling-of-email, #7A7E92);
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.2%; /* 16.104px */
+    margin-left: 250px;
+}
+
+.select{
+    margin-left:13px;
+    margin-top: 60px;
+    width: 127px;
+    height: 24px;
+    gap: 18px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid var(--Accent-Color-1, #0096FF);
+    background: #FFF;
+    outline: none;
+    color: var(--Title-Color, #1E2046);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.2%; /* 18.788px */
+}
